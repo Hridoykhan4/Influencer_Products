@@ -199,6 +199,10 @@ footer{
       box-sizing: border-box;
   }
   
+  body{
+    padding: 0;
+    margin: 0;
+  }
   nav {
       flex-direction: column;
       text-align: center;
@@ -211,6 +215,7 @@ footer{
   .banner {
       flex-direction: column-reverse;
       text-align: center;
+      padding: 0;
   }
   
   .banner-btn{
@@ -226,6 +231,7 @@ footer{
       display: grid;
       grid-template-columns: repeat(3, 1fr);
       gap: 20px;
+      padding: 0;
   }
   
   .cards {
